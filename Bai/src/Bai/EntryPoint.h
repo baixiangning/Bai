@@ -6,7 +6,12 @@ extern Bai::Application* Bai::CreateApplication();
 
 int main()
 {
-	printf("Bai Engine");
+	Bai::Log::Init();
+	BAI_CORE_WARN("Initialized Log!");
+	int a = 5;
+	BAI_INFO("Hello!Var={0}",a);
+
+
 	auto app = Bai::CreateApplication();
 	app->Run();
 	delete app;

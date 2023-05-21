@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Bai\Log.h" />
     <ClInclude Include="src\Bai.h" />
     <ClInclude Include="src\Bai\Application.h" />
     <ClInclude Include="src\Bai\Core.h" />
     <ClInclude Include="src\Bai\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Bai\Log.cpp" />
     <ClCompile Include="src\Bai\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -68,6 +70,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BAI_PLATFORM_WINDOWS;BAI_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Bai\vendor\spdlog-1.11.0\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -82,6 +87,9 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>BAI_PLATFORM_WINDOWS;BAI_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Bai\vendor\spdlog-1.11.0\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
