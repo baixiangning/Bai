@@ -2,6 +2,7 @@
 
 #include "Core.h"
 
+
 namespace Bai {
 
 	class BAI_API Application

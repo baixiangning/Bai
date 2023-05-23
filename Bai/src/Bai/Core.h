@@ -10,3 +10,5 @@
 	#error BAI only support Windows!
 #endif // BAI_PLATFORM_WINDOWS
 
+#define BIT(x) (1<<x)
+

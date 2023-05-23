@@ -3,7 +3,7 @@ workspace "Bai"
 
 	configurations
 	{
-		"Debuf",
+		"Debug",
 		"Release",
 		"Dist"
 	}
@@ -26,6 +26,7 @@ project "Bai"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog-1.11.0/include"
 	}
 

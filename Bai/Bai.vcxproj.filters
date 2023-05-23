@@ -4,6 +4,9 @@
     <Filter Include="Bai">
       <UniqueIdentifier>{91D8870B-FDE1-877C-865D-9E7CF265937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Bai\Events">
+      <UniqueIdentifier>{55170416-41CF-4563-AAD6-1EBF96ADE053}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Bai.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Bai\EntryPoint.h">
       <Filter>Bai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bai\Events\ApplicationEvent.h">
+      <Filter>Bai\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bai\Events\Event.h">
+      <Filter>Bai\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bai\Events\KeyEvent.h">
+      <Filter>Bai\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bai\Events\MouseEvent.h">
+      <Filter>Bai\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Bai\Log.h">
       <Filter>Bai</Filter>
