@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+#include "bpch.h"
+>>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
 #include "Log.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
 

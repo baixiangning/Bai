@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Directories
 .vs/
 bin/
@@ -5,3 +6,25 @@ bin-int/
 
 # File
 *.user
+=======
+# Binaries
+**/bin/
+bin-int/
+Intermediates/
+
+# Hazel files
+*.log
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+
+# Directories
+Hazel/vendor/VulkanSDK
+Hazelnut/assets/cache
+scripts/__pycache__
+>>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26

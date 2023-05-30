@@ -1,8 +1,11 @@
 #pragma once
 #include "Event.h"
 
+<<<<<<< HEAD
 #include <sstream>
 
+=======
+>>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
 namespace Bai {
 	class BAI_API WindowResizeEvent : public Event
 	{

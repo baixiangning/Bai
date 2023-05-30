@@ -18,6 +18,12 @@ project "Bai"
 	targetdir ("bin/" .. outputdir .."/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .."/%{prj.name}")
 
+<<<<<<< HEAD
+=======
+	pchheader "bpch.h"
+	pchsource "Bai/src/bpch.cpp"
+
+>>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
 	files
 	{
 		"%{prj.name}/src/**.h",

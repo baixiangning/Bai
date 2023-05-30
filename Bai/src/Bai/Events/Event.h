@@ -1,9 +1,12 @@
 #pragma once
 #include "Bai/Core.h"
 
+<<<<<<< HEAD
 #include <string>
 #include <functional>
 
+=======
+>>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
 namespace Bai
 {
 	//事件是阻塞，没有缓冲
