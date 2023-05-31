@@ -1,8 +1,6 @@
 #pragma once
-<<<<<<< HEAD
-#include<memory>
-=======
->>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
+#include "bpch.h"
+
 #include "Core.h"
 #include "spdlog/spdlog.h"
 #include "spdlog/fmt/ostr.h"

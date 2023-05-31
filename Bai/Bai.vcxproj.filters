@@ -9,7 +9,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Bai.h" />
     <ClInclude Include="src\Bai\Application.h">
       <Filter>Bai</Filter>
     </ClInclude>
@@ -34,6 +33,9 @@
     <ClInclude Include="src\Bai\Log.h">
       <Filter>Bai</Filter>
     </ClInclude>
+    <ClInclude Include="src\bpch.h" />
+    <ClInclude Include="src\Bai.h" />
+    <ClInclude Include="src\Bai\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Bai\Application.cpp">
@@ -42,5 +44,6 @@
     <ClCompile Include="src\Bai\Log.cpp">
       <Filter>Bai</Filter>
     </ClCompile>
+    <ClCompile Include="src\bpch.cpp" />
   </ItemGroup>
 </Project>

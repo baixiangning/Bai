@@ -10,6 +10,13 @@ workspace "Bai"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder(solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Bai/venndor/GLFW/include"
+
+include "Bai/vendor/GLFW"
+
+
 project "Bai"
 	location "Bai"
 	kind "SharedLib"
@@ -18,12 +25,10 @@ project "Bai"
 	targetdir ("bin/" .. outputdir .."/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .."/%{prj.name}")
 
-<<<<<<< HEAD
-=======
+
 	pchheader "bpch.h"
 	pchsource "Bai/src/bpch.cpp"
 
->>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
 	files
 	{
 		"%{prj.name}/src/**.h",
@@ -33,7 +38,14 @@ project "Bai"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog-1.11.0/include"
+		"%{prj.name}/vendor/spdlog-1.11.0/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		--"opengl132.lib"
 	}
 
 	filter "system:windows"

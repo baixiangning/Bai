@@ -1,14 +1,13 @@
 #pragma once
-<<<<<<< HEAD
+
 
 #include "Event.h"
 
 #include <sstream>
 
-=======
-#include "Event.h"
 
->>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
+
+
 namespace Bai {
 	class BAI_API KeyEvent : public Event
 	{

@@ -1,14 +1,10 @@
 #pragma once
-<<<<<<< HEAD
 
 #include "Event.h"
 
 #include <sstream>
 
-=======
-#include "Event.h"
 
->>>>>>> 32dbe8cb6aca538352f10dcc2c278daa8f220f26
 namespace Bai {
 	class BAI_API MouseMovedEvent : public Event
 	{
@@ -84,7 +80,7 @@ namespace Bai {
 			return ss.str();
 		}
 
-		EVENT_CLASS_TYPE(MousePressed)
+		EVENT_CLASS_TYPE(MouseButtonPressed)
 	};
 
 	class BAI_API MouseButtonReleasedEvent : public MouseButtonEvent
@@ -100,6 +96,6 @@ namespace Bai {
 			return ss.str();
 		}
 
-		EVENT_CLASS_TYPE(MouseReleased)
+		EVENT_CLASS_TYPE(MouseButtonReleased)
 	};
 }

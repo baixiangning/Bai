@@ -1,3 +1,6 @@
 [submodule "Bai/vendor/spdlog-1.11.0"]
 	path=Bai/vendor/spdlog-1.11.0
 	url=https://github.com/gabime/spdlog
+[submodule "Bai/vendor/GLFW"]
+	path = Bai/vendor/GLFW
+	url = https://github.com/baixiangning/glfw
